@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E1B7D392328EB7C000465F1 /* TransnactionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E1B7D382328EB7C000465F1 /* TransnactionCell.xib */; };
+		9E1B7D3B2328F48A000465F1 /* TransactionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1B7D3A2328F48A000465F1 /* TransactionDetailViewController.swift */; };
 		9E3675A12327D01C004BD685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675A02327D01C004BD685 /* AppDelegate.swift */; };
-		9E3675A32327D01C004BD685 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675A22327D01C004BD685 /* ViewController.swift */; };
+		9E3675A32327D01C004BD685 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675A22327D01C004BD685 /* TransactionsViewController.swift */; };
 		9E3675A62327D01C004BD685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3675A42327D01C004BD685 /* Main.storyboard */; };
 		9E3675A82327D01E004BD685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3675A72327D01E004BD685 /* Assets.xcassets */; };
 		9E3675AB2327D01E004BD685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3675A92327D01E004BD685 /* LaunchScreen.storyboard */; };
 		9E3675B62327D01E004BD685 /* GNBTradesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675B52327D01E004BD685 /* GNBTradesTests.swift */; };
 		9E3675C12327D01E004BD685 /* GNBTradesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675C02327D01E004BD685 /* GNBTradesUITests.swift */; };
+		9E3675D42327D131004BD685 /* Rate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675D32327D131004BD685 /* Rate.swift */; };
+		9E3675D82327D21D004BD685 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675D72327D21D004BD685 /* Transaction.swift */; };
+		9E3675DA2327D242004BD685 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675D92327D242004BD685 /* Constants.swift */; };
+		9E3675DD2327D2DC004BD685 /* RequestServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675DC2327D2DC004BD685 /* RequestServiceProtocol.swift */; };
+		9E3675DF2327D2EA004BD685 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675DE2327D2EA004BD685 /* NetworkServiceProtocol.swift */; };
+		9E3675E12327D2FA004BD685 /* RequestServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675E02327D2FA004BD685 /* RequestServiceError.swift */; };
+		9E3675E32327D386004BD685 /* RequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675E22327D386004BD685 /* RequestService.swift */; };
+		9E3675E52327D3B0004BD685 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675E42327D3B0004BD685 /* NetworkService.swift */; };
+		9E3675E72327D3CB004BD685 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675E62327D3CB004BD685 /* JSONParser.swift */; };
+		9E3675E92327E1E2004BD685 /* TransactionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3675E82327E1E2004BD685 /* TransactionTableViewCell.swift */; };
+		9E679EAB23293E0500545426 /* CalculationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E679EAA23293E0500545426 /* CalculationService.swift */; };
+		9E679EAD23293E0F00545426 /* CalculationServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E679EAC23293E0F00545426 /* CalculationServiceProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E1B7D382328EB7C000465F1 /* TransnactionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransnactionCell.xib; sourceTree = "<group>"; };
+		9E1B7D3A2328F48A000465F1 /* TransactionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailViewController.swift; sourceTree = "<group>"; };
 		9E36759D2327D01C004BD685 /* GNBTrades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GNBTrades.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3675A02327D01C004BD685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9E3675A22327D01C004BD685 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E3675A22327D01C004BD685 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		9E3675A52327D01C004BD685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9E3675A72327D01E004BD685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3675AA2327D01E004BD685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,18 @@
 		9E3675BC2327D01E004BD685 /* GNBTradesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GNBTradesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E3675C02327D01E004BD685 /* GNBTradesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GNBTradesUITests.swift; sourceTree = "<group>"; };
 		9E3675C22327D01E004BD685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3675D32327D131004BD685 /* Rate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rate.swift; sourceTree = "<group>"; };
+		9E3675D72327D21D004BD685 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9E3675D92327D242004BD685 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9E3675DC2327D2DC004BD685 /* RequestServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestServiceProtocol.swift; sourceTree = "<group>"; };
+		9E3675DE2327D2EA004BD685 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		9E3675E02327D2FA004BD685 /* RequestServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestServiceError.swift; sourceTree = "<group>"; };
+		9E3675E22327D386004BD685 /* RequestService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestService.swift; sourceTree = "<group>"; };
+		9E3675E42327D3B0004BD685 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9E3675E62327D3CB004BD685 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		9E3675E82327E1E2004BD685 /* TransactionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionTableViewCell.swift; sourceTree = "<group>"; };
+		9E679EAA23293E0500545426 /* CalculationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationService.swift; sourceTree = "<group>"; };
+		9E679EAC23293E0F00545426 /* CalculationServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationServiceProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +126,14 @@
 			isa = PBXGroup;
 			children = (
 				9E3675A02327D01C004BD685 /* AppDelegate.swift */,
-				9E3675A22327D01C004BD685 /* ViewController.swift */,
-				9E3675A42327D01C004BD685 /* Main.storyboard */,
+				9E3675CE2327D097004BD685 /* Helpers */,
+				9E3675CF2327D0A3004BD685 /* Services */,
+				9E3675D22327D0B7004BD685 /* ViewControllers */,
+				9E3675D12327D0B1004BD685 /* Views */,
+				9E3675D02327D0AD004BD685 /* Model */,
+				9E3675AC2327D01E004BD685 /* Info.plist */,
 				9E3675A72327D01E004BD685 /* Assets.xcassets */,
 				9E3675A92327D01E004BD685 /* LaunchScreen.storyboard */,
-				9E3675AC2327D01E004BD685 /* Info.plist */,
 			);
 			path = GNBTrades;
 			sourceTree = "<group>";
@@ -123,6 +154,65 @@
 				9E3675C22327D01E004BD685 /* Info.plist */,
 			);
 			path = GNBTradesUITests;
+			sourceTree = "<group>";
+		};
+		9E3675CE2327D097004BD685 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9E3675D92327D242004BD685 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9E3675CF2327D0A3004BD685 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9E3675DB2327D2BD004BD685 /* Protocols */,
+				9E3675E22327D386004BD685 /* RequestService.swift */,
+				9E3675E42327D3B0004BD685 /* NetworkService.swift */,
+				9E679EAA23293E0500545426 /* CalculationService.swift */,
+				9E3675E62327D3CB004BD685 /* JSONParser.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9E3675D02327D0AD004BD685 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E3675D32327D131004BD685 /* Rate.swift */,
+				9E3675D72327D21D004BD685 /* Transaction.swift */,
+				9E3675E02327D2FA004BD685 /* RequestServiceError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E3675D12327D0B1004BD685 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9E3675A42327D01C004BD685 /* Main.storyboard */,
+				9E3675E82327E1E2004BD685 /* TransactionTableViewCell.swift */,
+				9E1B7D382328EB7C000465F1 /* TransnactionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9E3675D22327D0B7004BD685 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9E3675A22327D01C004BD685 /* TransactionsViewController.swift */,
+				9E1B7D3A2328F48A000465F1 /* TransactionDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9E3675DB2327D2BD004BD685 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9E3675DC2327D2DC004BD685 /* RequestServiceProtocol.swift */,
+				9E3675DE2327D2EA004BD685 /* NetworkServiceProtocol.swift */,
+				9E679EAC23293E0F00545426 /* CalculationServiceProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3675AB2327D01E004BD685 /* LaunchScreen.storyboard in Resources */,
+				9E1B7D392328EB7C000465F1 /* TransnactionCell.xib in Resources */,
 				9E3675A82327D01E004BD685 /* Assets.xcassets in Resources */,
 				9E3675A62327D01C004BD685 /* Main.storyboard in Resources */,
 			);
@@ -256,8 +347,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E3675A32327D01C004BD685 /* ViewController.swift in Sources */,
+				9E3675E52327D3B0004BD685 /* NetworkService.swift in Sources */,
+				9E679EAD23293E0F00545426 /* CalculationServiceProtocol.swift in Sources */,
+				9E3675E12327D2FA004BD685 /* RequestServiceError.swift in Sources */,
+				9E3675E32327D386004BD685 /* RequestService.swift in Sources */,
+				9E3675E72327D3CB004BD685 /* JSONParser.swift in Sources */,
+				9E3675DA2327D242004BD685 /* Constants.swift in Sources */,
+				9E3675D42327D131004BD685 /* Rate.swift in Sources */,
+				9E3675A32327D01C004BD685 /* TransactionsViewController.swift in Sources */,
+				9E3675DF2327D2EA004BD685 /* NetworkServiceProtocol.swift in Sources */,
+				9E3675DD2327D2DC004BD685 /* RequestServiceProtocol.swift in Sources */,
+				9E1B7D3B2328F48A000465F1 /* TransactionDetailViewController.swift in Sources */,
+				9E3675D82327D21D004BD685 /* Transaction.swift in Sources */,
+				9E3675E92327E1E2004BD685 /* TransactionTableViewCell.swift in Sources */,
 				9E3675A12327D01C004BD685 /* AppDelegate.swift in Sources */,
+				9E679EAB23293E0500545426 /* CalculationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
